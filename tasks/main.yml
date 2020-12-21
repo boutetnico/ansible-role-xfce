@@ -1,0 +1,7 @@
+---
+- name: Ensure dependencies are installed
+  apt:
+    install_recommends: false
+    name: "{{ xfce_dependencies + xfce_packages }}"
+    state: present
+    update_cache: true

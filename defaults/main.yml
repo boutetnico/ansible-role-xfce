@@ -1,0 +1,6 @@
+---
+xfce_dependencies:
+  - lightdm
+
+xfce_packages:
+  - xfce4
