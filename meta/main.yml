@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   role_name: xfce
+  namespace: boutetnico
   author: Nicolas Boutet
   description: Install Xfce.
   license: MIT
