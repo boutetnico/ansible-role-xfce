@@ -1,6 +1,6 @@
 ---
 - name: Ensure dependencies are installed
-  apt:
+  ansible.builtin.apt:
     install_recommends: false
     name: "{{ xfce_dependencies + xfce_packages }}"
     state: present
