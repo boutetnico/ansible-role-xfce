@@ -4,3 +4,9 @@
 
   roles:
     - role: boutetnico.xfce
+      xfce_dependencies:
+        - lightdm
+        - dbus-x11
+      xfce_packages:
+        - xfce4
+        - xfce4-terminal
